@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>FlowerPot Demo</title>
+	<style>
+	div{
+	width:500px;
+	height:250px;
+	}
+	div input[type="text"]{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 125px;
+	position: relative;
+	display: block;
+	}
+	</style>
+	
+</head>
+<body>
+<div style="background-color:silver" fp-app="test">
+<input fp-bind="test" type="text" />
+</div>
+
+<div style="background-color:gray" fp-app="test2">
+<input fp-bind="fptest2" type="text" />
+</div>
+<script src="../src/FlowerPot.js" ></script>
+<!-- <script src="FlowerPot.js" ></script> -->
+<script src="app.js" ></script>
+</body>
+</html>
